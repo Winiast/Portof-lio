@@ -199,6 +199,7 @@ header {
   padding-top: 6rem;
   flex-direction: column;
   align-items: center;
+
   justify-content: center;
   font-family: "Roboto Mono", monospace;
 }
@@ -273,6 +274,20 @@ header {
   height: 100%;
   height: 20rem;
   border-radius: 2rem 2rem 0 0;
+}
+
+.pintar {
+  margin-top: 5rem;
+  border-radius: 3%;
+  margin-bottom: 3rem;
+  background-image: linear-gradient(
+    to right top,
+    #1f2123,
+    #2a353b,
+    #334b52,
+    #3b6266,
+    #477a77
+  );
 }
 
 .gallery-projects ul li h3 {
